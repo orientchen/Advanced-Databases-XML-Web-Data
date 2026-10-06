@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courses>
+    <course id="CIS680">
+        <title>Advanced Databases</title>
+        <credits>3</credits>
+        <instructor>Dr. Chen</instructor>
+    </course>
+
+    <course id="CIS774">
+        <title>Programming Paradigms</title>
+        <credits>3</credits>
+        <instructor>Dr. Chen</instructor>
+    </course>
+
+    <course id="CIS341">
+        <title>Database Management Systems</title>
+        <credits>3</credits>
+        <instructor>Dr. Smith</instructor>
+    </course>
+</courses>
