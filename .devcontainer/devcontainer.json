@@ -8,7 +8,7 @@
     }
   },
 
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y unzip jq && curl -L https://files.basex.org/releases/12.4/BaseX124.zip -o /tmp/basex.zip && sudo unzip -q /tmp/basex.zip -d /opt && sudo rm -f /opt/basex/.basex && sudo ln -sf /opt/basex/bin/basex /usr/local/bin/basex",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y unzip jq && curl -L https://files.basex.org/releases/12.4/BaseX124.zip -o /tmp/basex.zip && sudo unzip -q /tmp/basex.zip -d /opt && sudo touch /opt/basex/.basex && sudo chown vscode:vscode /opt/basex/.basex && sudo ln -sf /opt/basex/bin/basex /usr/local/bin/basex",
 
   "customizations": {
     "vscode": {
