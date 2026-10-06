@@ -1,0 +1,20 @@
+{
+  "name": "XML and Web Data",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"
+    }
+  },
+
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y basex jq",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "redhat.vscode-xml"
+      ]
+    }
+  }
+}
