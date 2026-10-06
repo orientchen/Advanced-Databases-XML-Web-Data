@@ -2,11 +2,14 @@
   "name": "XML and Web Data",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 
-  "features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "17"
-    }
+"features": {
+  "ghcr.io/devcontainers/features/java:1": {
+    "version": "17"
   },
+  "ghcr.io/devcontainers/features/python:1": {
+    "version": "3.12"
+  }
+},
 
 "postCreateCommand": "sudo apt-get update && sudo apt-get install -y unzip jq && curl -L https://files.basex.org/releases/12.4/BaseX124.zip -o /tmp/basex.zip && sudo unzip -q /tmp/basex.zip -d /opt && sudo touch /opt/basex/.basex && sudo chown vscode:vscode /opt/basex/.basex && sudo ln -sf /opt/basex/bin/basex /usr/local/bin/basex",
 
