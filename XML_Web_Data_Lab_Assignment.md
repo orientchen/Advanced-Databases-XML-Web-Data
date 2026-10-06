@@ -90,13 +90,13 @@ At the end of your recording, briefly answer:
     process.
 -   Follow the README activity before making your final recording.
 
-## Grading --- 10 Points
+## Grading - 10 Points
 
-  Component                                        Points
-  ---------------------------------------------- --------
-  XML and XPath demonstration                         2.5
-  XQuery / FLWOR demonstration and explanation          2
-  JSON / `jq` demonstration and explanation             2
-  Web API and browser demonstration                   2.5
-  Final explanation and recording completeness          1
-  **Total**                                        **10**
+| Component | Points |
+|---|---:|
+| XML and XPath demonstration | 2.5 |
+| XQuery / FLWOR demonstration and explanation | 2 |
+| JSON / `jq` demonstration and explanation | 2 |
+| Web API and browser demonstration | 2.5 |
+| Final explanation and recording completeness | 1 |
+| **Total** | **10** |
