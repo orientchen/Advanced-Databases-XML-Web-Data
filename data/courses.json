@@ -1,0 +1,22 @@
+{
+  "courses": [
+    {
+      "id": "CIS680",
+      "title": "Advanced Databases",
+      "credits": 3,
+      "instructor": "Dr. Chen"
+    },
+    {
+      "id": "CIS774",
+      "title": "Programming Paradigms",
+      "credits": 3,
+      "instructor": "Dr. Chen"
+    },
+    {
+      "id": "CIS341",
+      "title": "Database Management Systems",
+      "credits": 3,
+      "instructor": "Dr. Smith"
+    }
+  ]
+}
